@@ -29,7 +29,7 @@ pip install --editable .
 ```
 
 ### Pipeline 
-1. Train a baseline model following the SOP in `examples/translation/README.me`. See our script `general_train.sh` (also utilize it for baseline finetuning).
+1. Train a baseline model following the SOP in `examples/translation/README.md`. See our script `general_train.sh` (also utilize it for baseline finetuning).
 2. Use the scripts containing in the folder `lm_score/general_domain_script` to train a general domain NLM.
 3. Finetune the domain-specific NLM following the script `lm_score/finetune_lm/continue_lm_domain.sh`.
 4. Score the adaptation divergence for domain corpus:
