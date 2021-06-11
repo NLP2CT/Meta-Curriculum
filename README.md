@@ -8,11 +8,15 @@ Please cite as:
 ```bibtex
 @inproceedings{zhan2021metacl,
   title={Meta-Curriculum Learning for Domain Adaptation in Neural Machine Translation},
-  author={Runzhe Zhan, Xuebo Liu, Derek F. Wong, Lidia S. Chao},
+  author={Zhan, Runzhe and Liu, Xuebo and Wong, Derek F. and Chao, Lidia S.},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   volume={35},
-  year={2021}
+  number={16},
+  month={May}, 
+  year={2021},
+  pages={14310-14318}
 }
+
 ```
 
 ### Requirements and Installation
