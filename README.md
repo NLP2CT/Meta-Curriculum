@@ -1,6 +1,10 @@
 # Meta-Curriculum
 Meta-Curriculum Learning for Domain Adaptation in Neural Machine Translation (AAAI 2021)
 
+
+**Update**: There are some problems with the OPUS corpus in terms of data quality. To make a fair comparison, we would like to suggest taking the results reported in a [subsequent work](https://arxiv.org/pdf/2112.08288.pdf) (Table 2) as the reference. They reproduced the experiments on a cleaner benchmark and further improved the performance. We appreciate their effort in checking the results.
+
+
 ### Citation
 
 Please cite as:
@@ -57,3 +61,5 @@ python meta_data_prep.py --data-path DOMAIN_DATA_PATH --split-dir META_SPLIT_SAV
 
 ### 🌟 COVID-19 English-German Small-Scale Parallel Corpus
 See `covid19-ende/covid_de.txt` and `covid19-ende/covid_en.txt` (Raw data without preprocessing).
+
+
